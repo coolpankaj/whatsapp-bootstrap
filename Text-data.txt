@@ -1,0 +1,20 @@
+REGARDING ASSIGNMENT : PORTFOLIO
+
+
+***
+
+a) I try to use necessary BOOTSTRAP-4 CLASSES to make it better.
+
+b) CSS properties is also used to improve layout of webpage and css also help to provide extra functionality.
+
+c) MAINLY FLEXBOX IS USED TO MAKE WEBPAGE RESPONSIVE 
+
+d) Media screens is used to implement webpage on different screens.
+
+
+Github repository: https://github.com/pankajsaini123/reponsive-webpage
+
+HOSTED URL: https://pankajsaini123.github.io/reponsive-webpage/
+
+
+THANKS...
