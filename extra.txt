@@ -1,0 +1,50 @@
+    <div class="container container-fixed" style="border: 1px solid black;">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10" style="background-color: #128c7e;height: 40px;">
+                <span class="text-*-left text-monospace text-capitalize" style="color: white;padding-top: 10px;font-size: 25px;margin-left: 10px;">Whatsapp</span>
+                <span class="text-*-left glyphicon glyphicon-search float-right" style="color:white;padding-top: 7px">
+                    <img src="icon.png" alt="search-icon" height="20px" width="20px">
+                    <img src="dots.png" alt="options" height="20px" width="20px" style="margin-left: 40px;">
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container container-fixed" style="border: 1px solid black;">
+    <!-- Nav pills -->
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10" style="background-color: #128c7e;height: 40px;">
+<ul class="nav nav-pills" style="text-align: center;">
+    <li class="nav-item" style="width: 25%;">
+      <a class="nav-link" data-toggle="pill" href="#camera"><img src="camera.png" alt="camera" height="20px" width="20px"></a>
+    </li>
+    <li class="nav-item"  style="width: 25%;">
+      <a class="nav-link active" data-toggle="pill" href="#chats" style="color: black">chats</a>
+    </li>
+    <li class="nav-item"  style="width: 25%;"> 
+      <a class="nav-link" data-toggle="pill" href="#status" style="color: black">status</a>
+    </li>
+    <li class="nav-item" style="width: 25%;" >
+        <a class="nav-link" data-toggle="pill" href="#calls" style="color: black">calls</a>
+      </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content" >
+    <div class="tab-pane container fade" id="camera" ><span class="text-uppercase text-muted" style="margin-left: 300px;line-height: 300px;">Give permission to access camera</span></div>
+    <div class="tab-pane container active" id="chats">
+       
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-10 col-xl-10" style="border: 1px solid red;height: 150px;"></div>
+            
+        </div>
+    </div>
+    <div class="tab-pane container fade" id="status">...</div>
+    <div class="tab-pane container fade" id="calls">...</div>
+  </div>
+</div>
+
+
+</div></div>

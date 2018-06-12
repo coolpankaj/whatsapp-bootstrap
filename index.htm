@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whatsapp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10" style="background-color: #128c7e;height: 40px;">
+                <span class="text-*-left text-monospace text-capitalize" style="color: white;padding-top: 10px;font-size: 25px;margin-left: 10px;">Whatsapp</span>
+                <span class="float-right">
+                    <div class="dropdown">
+                            <button type="button" class="btn btn-sm " data-toggle="dropdown" aria-expanded="false" style="padding: 0;background-color: transparent" >
+                              <h4 class="d-flex align-items-center"><i class="fa fa-ellipsis-v text-one"></i></h4>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; transform: translate3d(30px, 44px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"><p>New group</p></a>
+                              <a class="dropdown-item" href="#"><p>New broadcast</p></a>
+                              <a class="dropdown-item" href="#"><p>Whatsapp Web</p></a>
+                              <a class="dropdown-item" href="#"><p>Starred messages</p></a>
+                              <a class="dropdown-item" href="#"><p>Settings</p></a>
+                            </div>
+                          </div>
+                          
+                </span>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10" style="background-color: #128c7e;height: 40px;">
+                <ul class="nav nav-pills" style="text-align: center;">
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="nav-link" data-toggle="pill" href="#camera">
+                            <img src="camera.png" alt="camera" height="20px" width="20px">
+                        </a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="nav-link active" data-toggle="pill" href="#chats" style="color: white;">chats</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="nav-link " data-toggle="pill" href="#status" style="color: white;">status</a>
+                    </li>
+                    <li class="nav-item" style="width: 25%;">
+                        <a class="nav-link" data-toggle="pill" href="#calls" style="color: white;">calls</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container-full fade text-center" id="camera">
+                        <span class="text-uppercase text-muted" style="line-height: 150px;">Give permission to access camera</span>
+                    </div>
+                    <div class="tab-pane container-full active" id="chats">
+
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom:1px solid lightgray;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="profile.png" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Person A
+                                    <span class="float-right">12:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="tick.png" alt="tick" height="15px" width="15px">
+                                    </span> Hello !!!.....How are you.
+
+
+
+                                    <button type="button" class="btn btn-success btn-sm float-right" data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button>
+
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Person
+                                                        <sub style="color: green;font-size: 15px;">Typing...</sub>
+                                                    </h4>
+
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+
+                                                    <p class="msg-s">Hiii...</p>
+                                                    <p class="msg-r">Hiii...</p>
+                                                    <p class="msg-s">How are you ?</p>
+                                                    <p class="msg-r">I am fine</p>
+                                                    <p class="msg-s">I want to send a pic</p>
+                                                    <p class="msg-r">yaa... sure</p>
+                                                    <p class="msg-s">
+                                                        <img src="nature.png" alt="">
+                                                    </p>
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" style="border: 1px solid black;">
+                                                    <br>
+                                                    <button type="button" class="btn btn-success btn-block">Submit</button>
+                                                </div>
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Person B
+                                    <span class="float-right">1:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="tick.png" alt="tick" height="15px" width="15px">
+                                    </span> Hello !!!.....what are you doing ?
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button>
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="profile.png" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Person C
+                                    <span class="float-right">2:00</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="tick.png" alt="tick" height="15px" width="15px">
+                                    </span> Is it raining, Today.
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button>
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Family Group
+                                    <span class="float-right"><span class="badge badge-dark" style="margin-right: 20px;font-size: 15px;background-color: blue;">27</span>3:05</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="s-tick.png" alt="s-tick" height="15px" width="15px">
+                                    </span> Whoaa !!....we win. 
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button><img class="float-right" src="mute.png" alt="mute" height="30px" width="30px" style="margin-right: 10px;">
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="profile.png" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Person E
+                                    <span class="float-right">4:30</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="s-tick.png" alt="s-tick" height="15px" width="15px">
+                                    </span> Hello !!!.....How are you
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button>
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Company Memebers
+                                    <span class="float-right"><span class="badge badge-dark" style="margin-right: 20px;font-size: 15px;background-color: blue;">9</span>5:55</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="s-tick.png" alt="s-tick" height="15px" width="15px">
+                                    </span> Hello !!!.....How are you
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button><img class="float-right" src="mute.png" alt="mute" height="30px" width="30px" style="margin-right: 10px;">
+                                </p>
+
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="profile.png" alt="pro-pic" height="40px" width="40px" style="margin-top:15px;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 10px;">Person G
+                                    <span class="float-right">6:16</span>
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">
+                                    <span>
+                                        <img src="s-tick.png" alt="s-tick" height="15px" width="15px">
+                                    </span> Hello !!!.....How was your day.
+                                    <button type="button" class="btn btn-success btn-sm float-right"
+                                        data-toggle="modal" data-target="#myModal">
+                                        chat
+                                    </button>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane container-full fade" id="status">
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">My status
+                                    <span class="float-right">
+                                           <img class="pro" src="plus.png" alt="add-status" height="45px" width="45px">
+                                    </span>
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Tap to add status update.</p>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <h5 class="text-bold" style="margin-top: 15px;">Recent updates</h5>
+                                <img class="float-left rounded-circle pro" src="nature.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">New Person
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+
+                                <img class="float-left rounded-circle pro" src="nature.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:2px solid green;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Company
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <h5 class="text-bold" style="margin-top: 15px;">Viewed updates</h5>
+                                <img class="float-left rounded-circle pro" src="nature.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person A
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+
+                                <img class="float-left rounded-circle pro" src="nature-2.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person B
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 05:00 AM</p>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+
+                                <img class="float-left rounded-circle pro" src="cartoon.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person C
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Yesterday, 10:33 PM</p>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+
+                                <img class="float-left rounded-circle pro" src="cartoon-2.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border:3px solid whitesmoke;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person D
+
+                                </h5>
+                                <p class="text-muted" style="margin-left: 70px;font-size: 15px;">Today, 10:00 AM</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane container-full fade" id="calls">
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person D
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="cartoon-2.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person A
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="d-arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="nature.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person F
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="cartoon.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person A
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="d-arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="nature-2.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person A
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person E
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="d-arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="cartoon-2.png" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person D
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="d-arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+                            <div class="col-md-12" style="border-bottom:1px solid lightgrey;height:auto;background-color: rgb(226, 225, 225);">
+                                <img class="float-left rounded-circle pro" src="f-icon.svg" alt="pro-pic" height="50px" width="50px" style="margin-top:15px;border-radius: 50%;border: 2px solid lightgrey;">
+                                <h5 class="text-bold" style="margin-left: 70px;margin-top: 17px;">Person B
+                                    <span class="float-right" style="margin-right: 40px;">
+                                        <img src="Phone-icon.png" alt="dialer" height="30px" width="30px" style="margin-right: 50px;">
+                                        <img src="video.png" alt="dialer" height="30px" width="30px">
+                                    </span>
+                                </h5>
+                                <img src="d-arrow.png" alt="missed" width="20px" height="20px" style="margin-left: 10px;">
+                                <span class="text-muted">&emsp;9 June, 8:51 PM</span>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

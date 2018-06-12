@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 16px;
+    
+}
+.pro:hover{
+    cursor: pointer;
+    background-color: rgb(144, 197, 167);
+    padding: 15px;
+    border-radius: 50%;
+}
+.msg-s{
+    background-color: aliceblue;
+    padding: 5px;
+    float: left;
+    clear: both;
+}
+.msg-r{
+    background-color: aliceblue;
+    padding: 5px;
+    float: right;
+    clear: both;
+}
+.msg-s img,.msg-r img{
+    height: 50px;
+    width: 50px;
+}
